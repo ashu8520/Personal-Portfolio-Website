@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Web Devloping</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark fa-spin" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars fa-spin" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer/Designer</p>
+                <h1>Hi, I'm <span>Hemant</span><br><span>singh</span><br> from india</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------about---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mara.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia placeat tenetur et nam,
+                        libero,
+                        voluptatem est deserunt praesentium veniam sit eos possimus. Vitae, ea. Reiciendis atque
+                        perspiciatis quos! Aliquam dolores recusandae quia.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web AI Based Manage</span><br>Devloped by Web/WebApp interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Web and Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Web/WebApp interfaces Design Training at AKS
+                                University
+                                satna, madhaay pradesh</li>
+                            <li><span>2023 - 2023</span><br>Web Design using languge in HTML & CSS online and
+                                offline
+                                Mode Work.</li>
+                            <li><span>2022 - 2023</span><br>Best Linkedin Profile Creating/Macking.</li>
+                            <li><span>2021 - 2022</span><br>Basic coding languge learning in c and c++.</li>
+                            <li><span>2020 - 2021</span><br>Addmision in B.Tech (C.S.E.) .</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2020</span><br>Addmision Aks University satna</li>
+                            <li><span>2024</span><br>M.Tech (C.S.E) from IIT Bangalore</li>
+                            <li><span>2025</span><br>IIT Bangalore M.Tech (C.S.E) thrue Pleacement in campuse</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------services---------- -->
+    <div id="sevices">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Macking</h2>
+                    <p2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum esse molestias nemo iure
+                        minus
+                        quos? Numquam ullam aliquid quam odit. Consequuntur officiis beatae incidunt laudantium!
+                    </p2>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-unity"></i>
+                    <h2>3D Animation Picture/images Design</h2>
+                    <p2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum esse molestias nemo iure
+                        minus
+                        quos? Numquam ullam aliquid quam odit. Consequuntur officiis beatae incidunt laudantium!
+                    </p2>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-youtube"></i>
+                    <h2>YouTub Video Macking</h2>
+                    <p2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum esse molestias nemo iure
+                        minus
+                        quos? Numquam ullam aliquid quam odit. Consequuntur officiis beatae incidunt laudantium!
+                    </p2>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <!-- ------------portfolio------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="Work-list">
+                    <div class="work">
+                        <img src="images/bio-1.jpg">
+                        <div class="layer">
+                            <h3>Hubble Captures Spectacular "Landscape" in the Carina Nebula</h3>
+                            <p>NASA's Hubble Space Telescope captured this billowing cloud of cold interstellar gas and dust rising from a tempestuous stellar nursery located in the Carina Nebula, 7,500 light-years away in the southern constellation Carina.</p>
+                            <a href="#"><i class="fa-solid fa-square-arrow-up-right fa-bounce"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/bio-2.jpg">
+                        <div class="layer">
+                            <h3>Earth is the only planet in the universe where humans and animals can live.</h3>
+                            <p> The earth is the planet that we live on and it is the fifth-largest planet. It is positioned in third place from the Sun. This essay on earth will help you learn all about it in detail. Our earth is the only planet.</p>
+                            <a href="#"><i class="fa-solid fa-square-arrow-up-right fa-bounce"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/bio-3.jpg">
+                        <div class="layer">
+                            <h3>Gautam Buddha is the founder of Buddhism. He was born to a royal family in 623 BC in Lumbini, </h3>
+                            <p>Gautam Buddha is one of the most well-known spiritual leaders in history who started the religion of Buddhism. He was born in Lumbini, near the Indo-Nepal border, in the 6th century BC. He belonged to a wealthy family.</p>
+                            <a href="#"><i class="fa-solid fa-square-arrow-up-right fa-bounce"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/bio-4.jpg">
+                        <div class="layer">
+                            <h3>Astronauts are trained professionals who work in space.</h3>
+                            <p>An astronaut is a person who is trained to travel into space. They are specially trained to work and live in spacecraft like rockets or space shuttles. Astronauts wear special suits called spacesuits to protect themselves in the harsh environment of space.</p>
+                            <a href="#"><i class="fa-solid fa-square-arrow-up-right fa-bounce"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- --------------contact--------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@example.com</p>
+                        <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/hemant-singh-623715212/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.mpigr.gov.in:8080/IGRS/jsp/login/UserLoginConfirmation.jsp"><i class="fa-brands fa-telegram"></i></a>
+                        </div>
+                        <a href="images/7 BTech-CSE.pdf" download class="btn btn2">Download Syllabuse</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Hemant. Made by <i class="fa-sharp fa-solid fa-heart"></i> Personal Portfolio Website
+                    - Web Devloping </p>
+            </div>
+
+
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-link");
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link")
+                    document.getElementById(tabname).classList.add("active-tab")
+                }
+
+            </script>
+
+            <script>
+
+                var sidemeu = document.getElementById("sidemenu");
+
+                function openmenu() {
+                    sidemeu.style.right = "0";
+                }
+                function closemenu() {
+                    sidemeu.style.right = "-200px";
+                }
+            </script>
+</body>
+
+</html>
